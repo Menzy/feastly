@@ -35,16 +35,6 @@
 			path = feastly;
 			sourceTree = "<group>";
 		};
-		B5F640502DA83CD800382214 /* feastlyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = feastlyTests;
-			sourceTree = "<group>";
-		};
-		B5F6405A2DA83CD800382214 /* feastlyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = feastlyUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				B5F6403E2DA83CD600382214 /* feastly */,
-				B5F640502DA83CD800382214 /* feastlyTests */,
-				B5F6405A2DA83CD800382214 /* feastlyUITests */,
 				B5F6403D2DA83CD600382214 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				B5F6404F2DA83CD800382214 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B5F640502DA83CD800382214 /* feastlyTests */,
-			);
 			name = feastlyTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				B5F640592DA83CD800382214 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B5F6405A2DA83CD800382214 /* feastlyUITests */,
 			);
 			name = feastlyUITests;
 			packageProductDependencies = (
